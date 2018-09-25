@@ -12,7 +12,7 @@ import org.apache.hadoop.security.UserGroupInformation;
 public class DFStest {
 
     public static void main(String[] args) throws IOException {
-        // 注释
+        // 注释aaaa
         // github
         // qqqq
         Configuration config = new Configuration();
