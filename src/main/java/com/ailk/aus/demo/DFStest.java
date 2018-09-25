@@ -12,6 +12,8 @@ import org.apache.hadoop.security.UserGroupInformation;
 public class DFStest {
 
     public static void main(String[] args) throws IOException {
+
+
         Configuration config = new Configuration();
         config.addResource(new Path(args[0]));
         config.addResource(new Path(args[1]));
