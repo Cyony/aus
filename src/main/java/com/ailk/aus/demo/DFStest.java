@@ -14,6 +14,7 @@ public class DFStest {
     public static void main(String[] args) throws IOException {
         // 注释
         // github
+        // qqqq
         Configuration config = new Configuration();
         config.addResource(new Path(args[0]));
         config.addResource(new Path(args[1]));
