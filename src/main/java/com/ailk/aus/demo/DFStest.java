@@ -14,7 +14,6 @@ public class DFStest {
 		Configuration config = new Configuration();
 		config.addResource(new Path(args[0]));
 		config.addResource(new Path(args[1]));
-		
 		UserGroupInformation.setConfiguration(config);
 		UserGroupInformation.loginUserFromKeytab(args[2], args[3]);
 		FileSystem fs = FileSystem.get(config);
