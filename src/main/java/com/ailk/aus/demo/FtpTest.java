@@ -10,6 +10,8 @@ import org.apache.commons.net.ftp.FTPClient;
 public class FtpTest {
 
 	public static void main(String[] args) throws IOException {
+		
+		
 		FTPClient ftpClient = new FTPClient();
 		ftpClient.setCharset(Charset.forName("UTF-8"));
 		ftpClient.setControlEncoding("UTF-8");
