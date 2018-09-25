@@ -19,6 +19,7 @@ public class DFStest {
 		UserGroupInformation.setConfiguration(config);
 		UserGroupInformation.loginUserFromKeytab(args[2], args[3]);
 		FileSystem fs = FileSystem.get(config);
+		
 		for (FileStatus file : fs.listStatus(new Path("/"))) {
 			System.out.println(file.getPath().getName());
 		}
